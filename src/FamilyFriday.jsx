@@ -80,10 +80,9 @@ export default function FamilyFriday() {
           </p>
         </div>
       )}
-    </div>
+        <div style={{ marginTop: "40px", fontSize: "12px", color: "#888" }}>
+          Debug path: {typeof window !== 'undefined' && window.location.pathname}
+        </div>
+    </div> // closes .app-container
   );
 }
-
-<div style={{ marginTop: "40px", fontSize: "12px", color: "#888" }}>
-  Debug path: {typeof window !== 'undefined' && window.location.pathname}
-</div>
