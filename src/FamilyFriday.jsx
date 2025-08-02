@@ -83,3 +83,7 @@ export default function FamilyFriday() {
     </div>
   );
 }
+
+<div style={{ marginTop: "40px", fontSize: "12px", color: "#888" }}>
+  Debug path: {typeof window !== 'undefined' && window.location.pathname}
+</div>
