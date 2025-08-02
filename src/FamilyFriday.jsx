@@ -1,18 +1,19 @@
 // FamilyFriday.jsx
 // React app to reveal family photos, birthdays, and their shared Friday coincidence
 
-import sasha1 from './photos/sasha1.JPG';
-import sasha2 from './photos/sasha2.JPG';
-import ira1 from './photos/ira1.JPG';
-import ira2 from './photos/ira2.JPG';
-import neta1 from './photos/neta1.JPG';
-import neta2 from './photos/neta2.JPG';
-import nomi1 from './photos/nomi1.JPG';
-import nomi2 from './photos/nomi2.JPG';
-import neo1 from './photos/neo1.JPG';
-import neo2 from './photos/neo2.JPG';
-import bianca1 from './photos/bianca1.JPG';
-import bianca2 from './photos/bianca2.JPG';
+import sasha1 from './photos/sasha1.jpg';
+import sasha2 from './photos/sasha2.jpg';
+import ira1 from './photos/ira1.jpg';
+import ira2 from './photos/ira2.jpg';
+import neta1 from './photos/neta1.jpg';
+import neta2 from './photos/neta2.jpg';
+import nomi1 from './photos/nomi1.jpg';
+import nomi2 from './photos/nomi2.jpg';
+import neo1 from './photos/neo1.jpg';
+import neo2 from './photos/neo2.jpg';
+import bianca1 from './photos/bianca1.jpg';
+import bianca2 from './photos/bianca2.jpg';
+
 import React, { useState } from 'react';
 import './FamilyFriday.css';
 
