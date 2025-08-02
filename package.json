@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/cherniakalex/One_in_117K/issues"
   },
-  "homepage": "https://github.com/cherniakalex/One_in_117K#readme",
+  "homepage": "https://github.com/cherniakalex/One_in_117K",
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^19.1.1",
