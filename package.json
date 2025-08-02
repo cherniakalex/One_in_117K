@@ -1,0 +1,40 @@
+{
+  "name": "one_in_117k",
+  "version": "1.0.0",
+  "description": "**One_in_117K** is a playful and interactive React app that reveals an extraordinary coincidence:  \r > Every member of one family — parents, two kids, a dog, and a cat — was born on a **Friday**.  \r > The chance of that? Just **1 in 117,649**!",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherniakalex/One_in_117K.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cherniakalex/One_in_117K/issues"
+  },
+  "homepage": "https://github.com/cherniakalex/One_in_117K#readme",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

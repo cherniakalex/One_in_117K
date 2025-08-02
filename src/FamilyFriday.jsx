@@ -1,16 +1,28 @@
 // FamilyFriday.jsx
 // React app to reveal family photos, birthdays, and their shared Friday coincidence
 
+import sasha1 from './photos/sasha1.jpg';
+import sasha2 from './photos/sasha2.jpg';
+import ira1 from './photos/ira1.jpg';
+import ira2 from './photos/ira2.jpg';
+import neta1 from './photos/neta1.jpg';
+import neta2 from './photos/neta2.jpg';
+import nomi1 from './photos/nomi1.jpg';
+import nomi2 from './photos/nomi2.jpg';
+import neo1 from './photos/neo1.jpg';
+import neo2 from './photos/neo2.jpg';
+import bianca1 from './photos/bianca1.jpg';
+import bianca2 from './photos/bianca2.jpg';
 import React, { useState } from 'react';
 import './FamilyFriday.css';
 
 const family = [
-  { name: 'Sasha (You)', dob: '1979-07-06', photo1: 'photos/sasha1.jpg', photo2: 'photos/sasha2.JPG' },
-  { name: 'Ira (Wife)', dob: '1981-07-31', photo1: 'photos/ira1.jpg', photo2: 'photos/ira2.jpg' },
-  { name: 'Neta (Older Daughter)', dob: '2010-10-08', photo1: 'photos/neta1.jpg', photo2: 'photos/neta2.jpg' },
-  { name: 'Nomi (Younger Daughter)', dob: '2015-10-16', photo1: 'photos/nomi1.jpg', photo2: 'photos/nomi2.jpg' },
-  { name: 'Neo (Dog)', dob: '2007-10-12', photo1: 'photos/neo1.jpg', photo2: 'photos/neo2.JPG' },
-  { name: 'Bianca (Cat)', dob: '2017-07-07', photo1: 'photos/bianca1.jpg', photo2: 'photos/bianca2.jpg' },
+  { name: 'Sasha (You)', dob: '1979-07-06', photo1: sasha1, photo2: sasha2 },
+  { name: 'Ira (Wife)', dob: '1981-07-31', photo1: ira1, photo2: ira2 },
+  { name: 'Neta (Older Daughter)', dob: '2010-10-08', photo1: neta1, photo2: neta2 },
+  { name: 'Nomi (Younger Daughter)', dob: '2015-10-16', photo1: nomi1, photo2: nomi2 },
+  { name: 'Neo (Dog)', dob: '2007-10-12', photo1: neo1, photo2: neo2 },
+  { name: 'Bianca (Cat)', dob: '2017-07-07', photo1: bianca1, photo2: bianca2 },
 ];
 
 function getWeekday(dateStr) {
